@@ -1,0 +1,14 @@
+.data {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(221, 203, 203);
+  box-shadow: 0.2px 0 1.8px 0.8px;
+  transition: 0.25s ease-in;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 20px;
+}
+.data:hover {
+  box-shadow: 0.2px 0 7.8px 0.8px;
+  transform: translateX(1px);
+}
